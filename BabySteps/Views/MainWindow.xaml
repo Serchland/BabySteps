@@ -1,0 +1,17 @@
+﻿<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:prism="http://prismlibrary.com/"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="BabySteps.Views.MainWindow"
+        xmlns:cc="clr-namespace:WpfCustomControlLibrary;assembly=WpfCustomControlLibrary"
+        prism:ViewModelLocator.AutoWireViewModel="True"
+        Title="{Binding Title}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <cc:CustomControl x:Name="customControl"></cc:CustomControl>
+
+    </Grid>
+</Window>
