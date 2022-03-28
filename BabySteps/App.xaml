@@ -7,8 +7,12 @@
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="WpfCustomControlLibrary;component/Themes/Generic.xaml"></ResourceDictionary>
+                <ResourceDictionary Source="/WpfCustomControlLibrary;component/Themes/Generic.xaml"></ResourceDictionary>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
+
+        
     </Application.Resources>
+    
+    
 </prism:PrismApplication>
