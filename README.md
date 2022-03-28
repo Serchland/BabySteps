@@ -1,3 +1,14 @@
 # BabySteps
-I am trying to overwrite the popup of a ComboBox control. I know you can edit a copy of the original template and implement the changes there.
-But just for fun, I was trying to retrieve the PART_Popup and overwrite it with an existing style in the application, but for some reason it doesn't work. Do you know why?
+How can I do something like this?
+
+<Style x:Key="PopupStyle" BasedOn="{StaticResource {x:Type Popup}}">
+        <Style.Setters>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <Grid>
+
+                    </Grid>
+                </Setter.Value>
+            </Setter>
+        </Style.Setters>
+</Style>
